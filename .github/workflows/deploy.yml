@@ -14,10 +14,9 @@ jobs:
 
       - name: Install Allure Command Line
         run: |
-          sudo apt-add-repository ppa:qameta/allure
           sudo apt-get update
-          sudo apt-get install allure
-          
+          sudo apt-get -y install allure
+
       - name: Install packages
         run: npm ci
 
