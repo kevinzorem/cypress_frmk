@@ -13,9 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Allure Command Line
-        run: |
-          sudo apt-get update
-          sudo apt-get -y install allure
+        run: npm install -g allure-commandline --save-dev
 
       - name: Install packages
         run: npm ci
