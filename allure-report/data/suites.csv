@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Dec 19 11:57:43 COT 2023","Tue Dec 19 11:57:57 COT 2023","13903","Account Login","","","","","Check the Login is not possible when user enters invalid credentials (example #1)",""
-"passed","Tue Dec 19 11:57:30 COT 2023","Tue Dec 19 11:57:43 COT 2023","12609","Account Login","","","","","Check the Login correctly to DemoQA (example #1)",""
